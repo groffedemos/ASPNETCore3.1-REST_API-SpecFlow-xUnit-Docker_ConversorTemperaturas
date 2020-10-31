@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: apitemperatura 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: apitemperatura
+  template:
+    metadata:
+      labels:
+        app: apitemperatura 
+    spec:
+      containers:
+        - name: apitemperatura 
+          image: groffeazuredevops.azurecr.io/apitemperatura
+          ports:
+          - containerPort: 80
