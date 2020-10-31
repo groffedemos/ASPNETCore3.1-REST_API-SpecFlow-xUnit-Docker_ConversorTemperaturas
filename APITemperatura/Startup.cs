@@ -27,7 +27,7 @@ namespace APITemperatura
                     new OpenApiInfo
                     {
                         Title = "Conversor de Temperaturas",
-                        Version = "v1",
+                        Version = "v2",
                         Description = "Exemplo de API REST criada com o ASP.NET Core 3.1 para conversão de temperaturas em Fahrenheit para as escalas Celsius e Kelvin",
                         Contact = new OpenApiContact
                         {
